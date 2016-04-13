@@ -51,7 +51,7 @@ a {
 }
 
 #main-header a:hover {
-	color: #EF5E38;
+	color: #003d5b;
 }
 
 
@@ -171,6 +171,11 @@ a {
 	font-style: italic;
 	font-size: .8em;
 	text-align: justify;
+}
+
+.below img {
+	border-radius: 20px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
 }
 
 
