@@ -149,6 +149,16 @@ a {
 }
 
 
+/*-____________HISTORY_____________-*/
+#wrapper-main {
+background: #074F57;
+	min-height: calc(100vh - 40px);
+	margin-top: 84px ;
+	padding: 20px;
+
+}
+
+
 
 
 
