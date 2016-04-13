@@ -1,0 +1,136 @@
+/*-__________ Top-level styles __________-*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*-__________ Header styles __________-*/
+
+#main-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #E4C5AF;
+	border-bottom: 2px solid #fff;
+}
+
+#main-header h1 {
+	margin: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#main-header ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+#main-header li {
+	font-size: 1.3em;
+	margin: 0 50px;
+}
+
+
+
+/*-__________ Banner styles __________-*/
+
+#banner {
+	width: 100%;
+	height: 80vh;
+	margin: 0;
+	margin-top: 84px;
+	border: 1px dotted red;
+	background-color: transparent;
+  background-image: url('../img/mountain_everest.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#banner h1 {
+	font-family: "Raleway", sans-serif;
+	font-size: 8em;
+	letter-spacing: -.02em;
+	margin: 20px auto;
+	margin-top: 200px;
+	color: #EF5E38;
+	text-shadow: 4px 4px 2px rgba(0,0,0,.35);
+}
+
+
+
+
+/*-__________ Main content area styles __________-*/
+
+#wrapper {
+	background: #074F57;
+	min-height: calc(100vh - 40px);
+	margin: 0;
+	padding: 20px;
+}
+
+.page {
+	margin: 20px auto;
+	padding: 20px;
+	height: 800px;
+	width: 95%;
+	background: #f4f4f4;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,.4);
+	/*box-shadow: inset 0px 0px 5px rgba(255,255,255,.4);*/
+}
+
+.content-wrap {
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+	align-items: center;
+}
+
+
+.content {
+	flex-basis: 275px;
+	margin: 5px;
+	padding: 10px;
+	height: 100%;
+}
+
+.featured {
+	flex-grow: 2;
+	border: 1px solid #074F57;
+	border-top: none;
+	border-bottom: none;
+}
+
+
+/*-__________ Footer styles __________-*/
+
+#main-footer {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background: #f4f4f4;
+}
+
+
+
+
+
