@@ -24,7 +24,7 @@ a {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: #E4C5AF;
+	background-color: #605f6b;
 	border-bottom: 2px solid #fff;
 }
 
@@ -32,6 +32,8 @@ a {
 	margin: 20px;
 	font-weight: 700;
 	color: #fff;
+	font-family: "Wallpoet", sans-serif;
+	font-size: 3.5em;
 }
 
 #main-header ul {
@@ -43,8 +45,13 @@ a {
 }
 
 #main-header li {
-	font-size: 1.3em;
+	font-size: 1.8em;
 	margin: 0 50px;
+	font-family: "Dosis", "Open Sans", sans-serif;
+}
+
+#main-header a:hover {
+	color: #077187;
 }
 
 
@@ -53,12 +60,12 @@ a {
 
 #banner {
 	width: 100%;
-	height: 80vh;
+	height: 600px;
 	margin: 0;
 	margin-top: 84px;
-	border: 1px dotted red;
+	padding: 150px;
 	background-color: transparent;
-  background-image: url('../img/mountain_everest.jpg');
+  background-image: url('../../img/mountain_everest.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,11 +73,10 @@ a {
 }
 
 #banner h1 {
-	font-family: "Raleway", sans-serif;
-	font-size: 8em;
+	font-family: "Creepster", sans-serif;
+	font-size: 10em;
 	letter-spacing: -.02em;
 	margin: 20px auto;
-	margin-top: 200px;
 	color: #EF5E38;
 	text-shadow: 4px 4px 2px rgba(0,0,0,.35);
 }
@@ -85,6 +91,7 @@ a {
 	min-height: calc(100vh - 40px);
 	margin: 0;
 	padding: 20px;
+	border-top: 2px solid #fff;
 }
 
 .page {
@@ -98,6 +105,11 @@ a {
 	/*box-shadow: inset 0px 0px 5px rgba(255,255,255,.4);*/
 }
 
+.page h1 {
+	font-size: 2em;
+	margin: 10px auto;
+}
+
 .content-wrap {
 	display: flex;
 	flex-direction: row;
@@ -105,12 +117,12 @@ a {
 	align-items: center;
 }
 
-
 .content {
 	flex-basis: 275px;
 	margin: 5px;
-	padding: 10px;
+	padding: 15px;
 	height: 100%;
+	text-align: justify;
 }
 
 .featured {
@@ -118,6 +130,13 @@ a {
 	border: 1px solid #074F57;
 	border-top: none;
 	border-bottom: none;
+}
+
+.placeholder-img {
+	background: #077187;
+	width: 320px;
+	height: 180px;
+	margin: auto;
 }
 
 
