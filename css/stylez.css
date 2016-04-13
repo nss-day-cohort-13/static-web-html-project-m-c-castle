@@ -154,6 +154,30 @@ a {
 }
 
 
+/*-__________ More index.html styles __________-*/
+
+.below {
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.below {
+	border: none;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.below p {
+	font-style: italic;
+	font-size: .8em;
+	text-align: justify;
+}
+
+
+
+
+
+
 
 
 
