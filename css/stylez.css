@@ -24,7 +24,7 @@ a {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: #074F57;
+	background-color: #f25f5c;
 	/*border-bottom: 2px solid #f25f5c;*/
 }
 
@@ -87,7 +87,7 @@ a {
 /*-__________ Main content area styles __________-*/
 
 #wrapper {
-	background: #074F57;
+	background: #f25f5c;
 	min-height: calc(100vh - 40px);
 	margin: 0;
 	padding: 20px;
