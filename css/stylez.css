@@ -25,7 +25,7 @@ a {
 	top: 0;
 	width: 100%;
 	background-color: #f25f5c;
-	/*border-bottom: 2px solid #f25f5c;*/
+	border-bottom: 2px solid #fff;
 }
 
 #main-header h1 {
@@ -97,7 +97,6 @@ a {
 .page {
 	margin: 20px auto;
 	padding: 20px;
-	height: 800px;
 	width: 95%;
 	background: #f7f7f7;
 	border-radius: 10px;
@@ -129,6 +128,12 @@ a {
 	border: 1px solid #074F57;
 	border-top: none;
 	border-bottom: none;
+}
+
+.featured_img_box {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
 }
 
 .featured img {
@@ -189,6 +194,38 @@ background: #074F57;
 }
 
 
+/*-__________ EMPLOYEES __________-*/
+
+.bio-card {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px;
+	float: left;
+}
+
+.employee {
+	flex-grow: 3;
+	margin-right: auto;
+}
+
+.employee-bio {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 15px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 
