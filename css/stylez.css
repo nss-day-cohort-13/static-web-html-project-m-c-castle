@@ -227,12 +227,54 @@ background: #074F57;
 	clear: both;
 }
 
+
+/*-__________ AWARDS __________-*/
+
+
 .awarDiv h2{
 	font-size: 1.5em;
 }
 
 
+/*-__________ EXPERIENCES __________-*/
 
+
+#wrapper-products {
+	background: #074F57;
+	min-height: calc(100vh - 40px);
+	margin: 0;
+	margin-top: 84px;
+	padding: 20px;
+	border-top: 2px solid #f25f5c;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.product-card {
+	margin: 20px auto;
+	padding: 20px;
+	width: 30%;
+	background: #f7f7f7;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,.4);
+	display: flex;
+	flex-direction: column;
+	height: 650px;
+}
+
+.product-card img {
+	width: 100%;
+}
+
+.product-card p {
+	text-align: justify;
+}
+
+.product-card a {
+	color: #f25f5c;
+}
 
 
 
